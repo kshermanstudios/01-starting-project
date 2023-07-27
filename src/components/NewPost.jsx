@@ -24,6 +24,7 @@ function NewPost({ onCancel, onAddPost }) {
 
     console.log(postData);
 
+    // currently pushes postData to the parent 
     onAddPost(postData);
 
     // now we can close the modal window
